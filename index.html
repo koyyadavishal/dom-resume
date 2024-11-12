@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    
+    <script>
+      let resume = document.createElement("h1");
+      resume.innerText = "VISHAL";
+      resume.style.color = "blue";
+      resume.style.textAlign = "center";
+      
+      console.log(resume);
+
+      let co = document.createElement("h2");
+      co.innerText = "CAREER OBJECTIVE :";
+      co.style.color = "grey";
+
+      console.log(co);
+
+      let par = document.createElement("p");
+      par.innerText =
+        "Enthusiastic and dedicated Associate System Engineer with a strong foundation in programming languages, including Python, and Node.js. Eager to develop my skills in the Software Development Life Cycle and contribute to innovative application design . A proactive learner, I thrive in collaborative environments and am committed to enhancing my problem solving abilities";
+      par.style.color = "green";
+      console.log(par);
+
+      let ed=document.createElement("h2");
+      ed.innerText="EDUCATION :";
+      ed.style.color = "grey";
+      console.log(ed);
+
+      let ar=document.createElement("p");
+        ar.innerText="Sphoorthy engineering college  2021-2024";
+        console.log(ar);
+        let r=document.createElement("p");
+        r.innerText="Computer Science Engineering (cyber security) ";
+        console.log(r);
+
+        let skills=document.createElement("h2");
+      skills.innerText="skills :";
+      skills.style.color = "grey";
+      console.log(skills);
+
+      let sk=document.createElement("p");
+        sk.innerText="• Front end technologies : HTML, CSS, JAVASCRIPT";
+        console.log(sk);
+        let ski=document.createElement("p");
+        ski.innerText="• Frameworks : BOOTSTRAP ";
+        console.log(ski);
+        let skil=document.createElement("p");
+        skil.innerText="• Developer-tools : VS code , git, git hub";
+        console.log(skil);
+        let skill=document.createElement("p");
+        skill.innerText="• Other skills : Ms office , Powerpoint , Excel , Word : programming languages : python";
+        console.log(skill);
+
+        
+        let projects=document.createElement("h2");
+      projects.innerText="Projects :";
+      projects.style.color = "grey";
+      console.log(projects);
+      let project=document.createElement("h3");
+      project.innerText="• DRIVER DROWSINESS MONITORING SYSTEM USING VISUAL BEHAVIOUR AND MACHINE LEARNING";
+      project.style.color = "orange";
+      console.log(project);
+      let projec=document.createElement("p");
+      projec.innerText="Summary of project : In this project by monitoring Visual Behaviour of a driver with webcam and machine learning SVM (support vector machine) algorithm we are detecting Drowsiness in a driver.";
+      projec.style.color = "green";
+      console.log(projec);
+      let proje=document.createElement("h3");
+      proje.innerText="• ENHANCING CLOUD DATA SECURITY : DYNAMIC AES ENCRYPTION WITH BLOCKCHAIN KEY MANAGEMENT";
+      proje.style.color = "orange";
+      console.log(proje);
+      let proj=document.createElement("p");
+      proj.innerText="Summary of project : The objective Dynamic encryption introduces an additional layer of security to safeguard sensitive data, mitigating the risks associated with data breaches and unauthorized access";
+      proj.style.color = "green";
+      console.log(proj);
+
+      let softskills=document.createElement("h2");
+      softskills.innerText="skills soft :";
+      softskills.style.color = "grey";
+      console.log(softskills);
+
+      let s=document.createElement("p");
+        s.innerText="• Problem Solving ";
+        console.log(s);
+        let o=document.createElement("p");
+        o.innerText="• Time Management ";
+        console.log(o);
+        let f=document.createElement("p");
+        f.innerText="• communication";
+        console.log(f);
+
+        document.body.append(resume , co ,par, ed, ar,r,skills,sk,ski,skil,skill,projects,project,projec,proje,proj,softskills,s,o,f);
+       
+  
+
+      
+    </script>
+  </body>
+</html>
